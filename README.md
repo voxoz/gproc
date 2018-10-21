@@ -1,4 +1,4 @@
-# GPROC: Erlang Process Registry
+# GPROC: Process Registry
 
 [![Build Status](https://travis-ci.org/voxoz/gproc.png?branch=master)](https://travis-ci.org/voxoz/gproc)
 

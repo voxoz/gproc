@@ -1,18 +1,11 @@
-%%% -*- mode: erlang -*-
-%%% $Id$
-%%%
-
 {application, gproc,
- [
-  {description, "Extended process registry for Erlang"},
-  {vsn, git},
+ [{description, "GPROC Process Registry"},
+  {vsn, "0.10"},
   {id, "GPROC"},
   {registered, [ ] },
   {applications, [ kernel, stdlib ] },
   {mod, {gproc_app, []} },
-
-  {maintainers, ["Ulf Wiger"]},
+  {maintainers, ["Maxim Sokhatsky"]},
   {licenses, ["EPL"]},
-  {links, [{"Github", "https://github.com/uwiger/gproc"}]}
- ]
-}.
+  {links, [{"Github", "https://github.com/voxoz/gproc"}]}
+ ]}.
