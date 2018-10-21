@@ -20,7 +20,7 @@
 %% <p>For a detailed description, see gproc/doc/erlang07-wiger.pdf.</p>
 %% @end
 -module(gproc_dist).
--behaviour(gen_leader).
+%-behaviour(gen_leader).
 
 -export([start_link/0, start_link/1,
          reg/1, reg/3, unreg/1,
